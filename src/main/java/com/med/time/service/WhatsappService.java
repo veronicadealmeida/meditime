@@ -9,13 +9,13 @@ import org.springframework.stereotype.Service;
 @Service
 public class WhatsappService {
 
-    @Value("${twilio.accountSid}")
+    @Value("${SEU_ACCOUNT_SID_AQUI}")
     private String accountSid;
 
-    @Value("${twilio.authToken}")
+    @Value("${SEU_AUTH_TOKEN_AQUI}")
     private String authToken;
 
-    @Value("${twilio.fromNumber}")
+    @Value("${SEU_NUMERO_TWILIO}")
     private String fromNumber;
 
     private boolean initialized = false;
